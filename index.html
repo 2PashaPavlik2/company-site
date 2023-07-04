@@ -4,45 +4,69 @@
         <meta charset="UTF-8">
         <title>Pavlik Entertainment</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Kadwa' rel='stylesheet'>
     </head>
     <body>
-        <div class="header">
-            <img src="background.jpg" class="photo">
-                <ul class="nav">
-                    <li><a href="#">logo</a></li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">service</a></li>
-                    <li><a href="#">skills</a></li>
-                    <li><a href="#">our projects</a></li>
-                    <li><a href="#">en</a></li>
-                    <li><a href="#">ua</a></li>
-                </ul>
-                <div class="BigLogo">PavlikEntertainment</div>
-        </div>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#logo_main_art">Logo</a>
+                </div>
+                <div class="centered">
+                    <a href="#logo_About_us_art">About Us</a>
+                    <a href="#logo_servic_art">Services</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Projects</a>
+                </div>
+                <div class="right">
+                    <a href="#">EN</a>
+                    <a href="#">UA</a>
+                </div>
+            </nav>
+        </header>
+            <article id="logo_main_art">
+                <img src="background.jpg" class="photo">
+                <div class="text_logo_main">
+                    <div class="logo_main_text">Pavlik Entertainment</div>
+                </div>
+            </article>
         <div class="main">
-            <div class="About_us">
-                <div class="About_us_main">About us</div>
-                <div class="About_us_text">We are a team of enthusiasts who create a variety of content. Our works include websites, TikToks, YouTube videos and even short films.</div>
+            <article id="logo_About_us_art">
+            <div class="second_page">  
+                <div class="About_us">
+                    <div class="About_us_main"><p>About us</p></div>
+                    <div class="About_us_text"><p>We are a team of enthusiasts who create a variety of content. Our works include websites, TikToks, YouTube videos and even short films.</p></div>
+                </div>
+                <img src="Hacker228.png" class="AboutPhoto">
             </div>
-            <div class="About_us_photo">photo.png</div>
-            <div class="Servic">
+                </article>
+            
+                <article id="logo_servic_art">
+            <div class="Servic"><!--1-->
                 <div class="Services">Services</div>
-                <div class="Front-end_development">
+
+                <div class="Front-end_development"><!--2-->
                     <div class="Front-end_main">Front-end development</div>
-                    <div class="Front-end_text">Creating websites using HTML,
-CSS and JavaScript</div>
+                    <div class="Front-end_text">Creating websites using HTML,CSS and JavaScript</div>
                 </div>
-                <div class="Video_editing">
+
+                <div class="Video_editing"><!--3-->
                     <div class="Video_editing_main">Video editing</div>
-                    <div class="Video_editing_text">Creation and editing of creative and interesting videos (Sony Vegas, Premier Pro, PhotoShop and Adobe Audition)</div>
+                    <div class="Video_editing_text">Editing of creative and interesting videos (Sony Vegas, Premier Pro, PhotoShop and Adobe Audition)</div>
                 </div>
-                <div class="Video_creating">
+
+                <img src="Programing.png" class="Servic_photo"><!--4-->
+
+                <div class="Video_creating"><!--5-->
                     <div class="Video_creating_main">Video creating</div>
                     <div class="Video_creating_text">Creation of creative videos for YouTube and TikTok</div>
                 </div>
-                <div class="Servic_photo"></div>
             </div>
-            <div class="skills">
+                </article>
+
+
+            <!-- <div class="skills"> 
                 <div class="skills_main">Skills.png</div>
                 <div class="skills_photo_html">html.png</div>
                 <div class="skills_photo_css">css.png</div>
@@ -56,12 +80,13 @@ CSS and JavaScript</div>
             <div class="our_project">
                 <div class="our_project_main">Our Project</div>
                 <div class="our_project_slaider">
-                    <--slaider-->     
+                    <-slaider->     
                 </div>
-            </div>
+            </div>-->
         </div>
         <div class="footer">
             
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
